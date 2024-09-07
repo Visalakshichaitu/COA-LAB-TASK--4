@@ -1,6 +1,6 @@
 org 100h           ; Set starting address
-mov al, 11h        ; Load AL with 03h
-mov bl, 05h        ; Load BL with 04h
+mov al, 11h        ; Load AL 
+mov bl, 05h        ; Load BL 
 mul bl             ; Multiply AL by BL, result in AX (AL * BL)
 mov bl, al         ; Move result (AL) to BL for later use
 mov ah, al         ; Move AL to AH for ASCII conversion
