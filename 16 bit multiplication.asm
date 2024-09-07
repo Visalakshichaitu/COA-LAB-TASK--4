@@ -1,6 +1,6 @@
 org 100h           ; Set starting address
-mov ax, 0101h      ; Load AX with 0012h (first number)
-mov bx, 0011h      ; Load BX with 0012h (second number)
+mov ax, 0101h      ; Load AX with first number
+mov bx, 0011h      ; Load BX with second number
 mul bx             ; Multiply AX by BX, result in AX
 mov bx, ax         ; BX now holds the result's lower 16 bits 
                                                             
